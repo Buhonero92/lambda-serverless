@@ -96,11 +96,7 @@ Resources:
                   - ec2:DescribeVpcs
                   - ec2:CreateNetworkInterfacePermission
                   - lambda:*
-                  - cloudformation:Describe*
-                  - cloudformation:Get*
-                  - cloudformation:List*
-                  - cloudformation:ValidateTemplate
-                  - cloudformation:ExecuteChangeSet
+                  - cloudformation:*
                 Resource: "*"
               - Effect: Allow
                 Action:
